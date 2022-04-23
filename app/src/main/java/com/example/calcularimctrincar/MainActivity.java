@@ -13,7 +13,6 @@ public class MainActivity<resultado, resultudo> extends AppCompatActivity {
     private EditText editPeso;
     private EditText editAltura;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +28,6 @@ public class MainActivity<resultado, resultudo> extends AppCompatActivity {
         double peso = Double.parseDouble(editPeso.getText().toString());
         double altura = Double.parseDouble(editAltura.getText().toString());
         double resultado = peso / (altura * altura);
-
 
         //se
         if (resultado < 19) {
